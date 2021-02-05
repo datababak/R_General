@@ -30,7 +30,8 @@ rsthemes::try_rsthemes()
 
 # Try just the light, dark, or base16 themes, e.g.
 rsthemes::try_rsthemes("light")
-Use rstudioapi::applyTheme() to activate a theme from the R console, or use Tools > Global Options > Appearance to interactively select a theme.
+
+# Use rstudioapi::applyTheme() #to activate a theme from the R console, or use Tools > Global Options > Appearance to interactively select a theme.
 
 # Use a theme
 rstudioapi::applyTheme("One Dark {rsthemes}")
